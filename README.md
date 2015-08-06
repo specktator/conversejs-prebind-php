@@ -4,12 +4,12 @@ Converse.js jabber/xmpp web-client configured for ___single session support___ u
 ## Purpose in simple words:
 
 I used [xmpp-prebind-php](https://github.com/candy-chat/xmpp-prebind-php) library to implement Single Session Support for [converse.js](http://conversejs.org).
-With the term "Single Session Support" we mean that we can enable users ___already authenticated___ in our website, to be ___also automatically___ be logged in to chat.
+With the term "Single Session Support" we mean that we can enable users ___already authenticated___ in our website, to be ___also automatically___ logged in to chat.
 Prebind technique is used in order to keep the connection peristent accross page load _aka_ page refresh.
 
 ## Usage:
 
-Download zip file or clone the repo into your web server public directory and modify [config.php](/conversejs-prebind-php/config.php), then open `index.php`.
+Download zip file or clone the repo into your web server public directory and modify [config.php](config.php), then open `index.php`.
 In order to see the difference, open `index2.php` to another tab, login with your credentials and reload the page.
 
 ## What is prebinding?
